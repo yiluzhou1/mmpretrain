@@ -125,6 +125,17 @@ cd mmpretrain
 mim install -e .
 ```
 
+Another option for latest installation:
+```shell
+conda create --name mmlab python=3.11
+conda activate mmlab
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install openmim
+git clone https://github.com/open-mmlab/mmpretrain.git
+cd mmpretrain
+mim install -e .
+```
+
 Please refer to [installation documentation](https://mmpretrain.readthedocs.io/en/latest/get_started.html) for more detailed installation and dataset preparation.
 
 For multi-modality models support, please install the extra dependencies by:

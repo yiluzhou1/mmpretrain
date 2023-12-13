@@ -11,4 +11,5 @@ model = dict(
         img_size=384,
         window_size=[24, 24, 24, 12],
         drop_path_rate=0.2,
-        pretrained_window_sizes=[12, 12, 12, 6]))
+        pretrained_window_sizes=[12, 12, 12, 6],
+        pad_small_map=True)) #newly added line
